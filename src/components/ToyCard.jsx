@@ -28,7 +28,7 @@ function ToyCard({ toy, onUpdateToy, onDeleteToy }) {
   }
 
   return (
-    <div className="card">
+     <div className="card" data-testid="toy-card">
       <h2>{name}</h2>
       <img src={image} alt={name} className="toy-avatar" />
       <p>{likes} Likes </p>
